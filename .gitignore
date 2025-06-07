@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Virtual environment folders
+venv/
+env/
+
+# VSCode settings
+.vscode/
+
+# Python wheel and egg files
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# C extensions
+*.so
+
+# macOS files
+.DS_Store
+
+# Images output / results (optional)
+cropped_plate_*.jpg
+results/
+
+# Tesseract output (optional)
+*.txt
+
+# Model weights or cache files (if any)
+*.pt
+*.pth
+
+# Other IDEs (optional)
+.idea/
+
