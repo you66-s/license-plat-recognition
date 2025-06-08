@@ -1,11 +1,11 @@
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
+
 import yolov5
 import cv2
 import easyocr
 import warnings
 warnings.filterwarnings("ignore", category=FutureWarning)
-
-import os
-os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 # Chargement de modéle
 model = yolov5.load('keremberke/yolov5n-license-plate')
@@ -19,7 +19,7 @@ model.agnostic = False
 model.multi_label = False 
 model.max_det = 1000
 
-img = cv2.imread('images/test10.png')
+img = cv2.imread('images/image.png')
 results = model(img, size=640)
 
 # Predictions
